@@ -4,7 +4,7 @@ require 'nokogiri'
 require 'htmlentities'
 
 news_feeds = {
-  "bbc-tech" => "http://feeds.bbci.co.uk/news/technology/rss.xml",
+  "bbc-tech" => "http://feeds.bbci.co.uk/news/technology/rss.xml", "bbc-tech"
   "mashable" => "http://feeds.feedburner.com/Mashable",
   "techcrunch" => "http://feeds.feedburner.com/TechCrunch/",
   "opm" => "http://www.opm.gov/rss/operatingstatus.atom",
@@ -19,7 +19,7 @@ class News
   end
 
   def widget_id()
-    bbc-tech
+    @widget_id
   end
 
   def truncate(string, length = 200)
