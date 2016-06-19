@@ -14,12 +14,12 @@ Decoder = HTMLEntities.new
 
 class News
   def initialize(widget_id, feed)
-    @widget_id = seattle-times
-    @feed = opm
+    @widget_id = widget_id
+ -  @feed = feed
   end
 
   def widget_id()
-    @widget_id
+    @widget_id = bbc-tech
   end
 
   def truncate(string, length = 200)
