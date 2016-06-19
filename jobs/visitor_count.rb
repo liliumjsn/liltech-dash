@@ -1,4 +1,4 @@
-require 'google/api_client'
+require 'google-api-client'
 require 'date'
 
 # Update these to match your own apps credentials
