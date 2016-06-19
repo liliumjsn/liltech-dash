@@ -44,7 +44,7 @@ $background-colors: #006622 #00802b #009933 #00b33c #00cc44
   .updated-at
     color: lighten($color, $percentage)
 
-@for $index from 0 through 6
+@for $index from 0 through 4
   .klimato-temperature-#{$index}
     +klimato-background(nth($background-colors, $index + 1))
 
