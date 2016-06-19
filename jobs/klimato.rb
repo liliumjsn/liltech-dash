@@ -3,7 +3,7 @@ require "json"
 
 # WOEID for location:
 # http://woeid.rosselliot.co.nz
-woeid  = 733075
+woeid  = 946738
 
 # Units for temperature:
 # f: Fahrenheit
