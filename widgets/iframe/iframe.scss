@@ -14,7 +14,7 @@ $iframe-background:  darken($background-color, 25%);
 .widget-iframe {
 
   background-color: $background-color;
-  padding: 0 !important;
+  padding: 10px !important;
   margin: 0 !important;
 
   iframe {
