@@ -2,10 +2,10 @@ require 'google/api_client'
 require 'date'
 
 # Update these to match your own apps credentials
-service_account_email = '[YOUR SERVICE ACCOUNT EMAIL]' # Email of service account
-key_file = 'path/to/your/keyfile.p12' # File containing your private key
+service_account_email = '[liltech-dash@appspot.gserviceaccount.com]' # Email of service account
+key_file = 'liltech-dash-ad125f0f8d62.p12' # File containing your private key
 key_secret = 'notasecret' # Password to unlock private key
-profileID = '[YOUR PROFILE ID]' # Analytics profile ID.
+profileID = '[79538768]' # Analytics profile ID.
 
 # Get the Google API client
 client = Google::APIClient.new(:application_name => '[YOUR APPLICATION NAME]', 
