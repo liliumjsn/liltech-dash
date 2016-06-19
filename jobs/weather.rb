@@ -4,7 +4,7 @@ require 'xmlsimple'
 # Get a WOEID (Where On Earth ID)
 # for your location from here:
 # http://woeid.rosselliot.co.nz/
-woe_id = 3369
+woe_id = 946738
  
 # Temerature format:
 # 'c' for Celcius
