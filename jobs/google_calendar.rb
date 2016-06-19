@@ -8,7 +8,7 @@ require 'open-uri'
 #   <name> => <uri>
 # Example:
 #   hangouts: "https://www.google.com/calendar/ical/<hash>.calendar.google.com/private-<hash>/hangouts.ics"
-calendars = {my: "https://calendar.google.com/calendar/ical/karapatisjim%40gmail.com/private-6fabaca65a08659a903b157184b3c842/basic.ics"}
+calendars = {mycal: "https://calendar.google.com/calendar/ical/karapatisjim%40gmail.com/private-6fabaca65a08659a903b157184b3c842/basic.ics"}
 
 SCHEDULER.every '5m', :first_in => 0 do |job|
 
