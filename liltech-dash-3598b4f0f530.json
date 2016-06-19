@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "liltech-dash",
+  "private_key_id": "3598b4f0f5303633e48288ef5b834d6c3ea108d7",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCjUo2sJjjEhK/I\ndeSc9tmSUL49wh2NhOSWCJKa/nw32iz1Y8IMKD9E1SxpPIOUJ9jtjwuYpuSyGZuJ\nMS6TPPvkvCz/MwFTtXRC6iEKfLqCfHnZL+JU8PBoLBIPPhL5NiM/+VuZ9J0W3Aws\nJUjTbiHHlGA+tDnT5K+hYnew6pu3+sNYbG3GIK/BLL0CM8A2AC6ks3ijAEICbnTJ\n89+D+ZhNT8GYi5NZFNMr+NWqpF0bsucGo4+CzFgrHnzki+BGGYhCJ+CCjO5bZFZc\nAD61Y8CItns7d416r55+i24LqAWTC3zLc4ML6QbdkWJ0LI+MUacGU7ANHArceG3e\nwjR8yxBVAgMBAAECggEAEasyrHcOGSSJp9QpQVnrO8sEacYAUHkaCakvwxjY82nl\nBz8dlRcdkSLGxTPIwFR3QWwCQyd7AlGG5BawBTnJvnslGw63jAjLZRnTLUFFJCy3\nOenWQH44Y+ywn3mFr/RNZ/RgFo3CGOEBaB04fbcibGb+6omw392Tqo/uhvM6mXKY\ncuoXdq24WzDw7eavwuAqLytd1waORLtgoRDtJuU+uXngsrBzugAs821TMvL+a/lY\nr8DzToxgcwyTk1ohiU/+seNso2dIFiF6qQTRp4vcOIpC2Tm0+YxgQ492kVQT8xng\nGk6Z+OkdS9eLBl/fhxTcTxzXdAZd3Qm1qxKrkt/UwQKBgQD349mvpjdHCWqWSwcw\npX0ESHsbVJ3wGOvz/KKBmtvM7KGOLihPqWXYS4n2ptNkECJI2/3+8EHBG7DQv8Ny\nj7kOqHGQG0Pp0SARwiKF6JmxJredp+ki8DGqoMwnh7+J7CJk2nVDqh1soAZYFbO4\ni3V9+HghgoQDO8JLsgxZInfQbQKBgQCoqmz1/aOvT4GWVBwbrRynrR3TSlNlpwNb\nToaCPapD4J9j/tGqSVv4pwM/xbR4inQ2t0Lhr/GtGzwJ4Wrg/JYOzLDzgYB/Lmz3\n5DGJ2PBXlS2cPaxgvyjkDbUWrkZQyUp3nm07I5RZ3OPVOONcD1xvZFQ05Fzj5zVH\nDEYeKubeiQKBgGN+UCDv1b/tR5qLApfD1Cmj7cVKcRms5wdGnvLl9NKLJ0ypugQ/\nOWFW8EjPLIk88IXNxmRMihe3xYADd67DgMMhWHM+fkOabAS0pqaYdRdlMs1UV35u\naYDSiR5Uncv9utA/3lEKNkUi9WjlTP0E/GNTFuRcPiAOHC3FiK895lkBAoGBAIo1\nDJANxMD0v1U1msq68Y4cdyIZ93iGgGOjVukGKqzwNOu1dIy7DBgWkr0A/j8ABPaI\n+M8CY2DbvjjCc9fkYfnClQUUCv0sR7JhVI6GK3s5DGTIzKWCPrmQ2eC58XhlWRXn\nxc39+6QfMroXoYZgN/g3GCE3Nz6wyKFtV0+FDCUxAoGBANHd9OdaBB/UAru3g5vA\nUE1fNXdAXNbdp1dg9M5QCRtAtWIGk5v3H7AX/xlelPKaQ2B0MmEdGVx2/uRISKq0\niyeW7KuNmAx11gLL2uf1PQzPk1eRnIjHf6gFHyF9DyXLuaL++mAEjWuAL2vwOPfb\njrFtW6KMsKgd7kk3L6piBpXJ\n-----END PRIVATE KEY-----\n",
+  "client_email": "liltech-dash@appspot.gserviceaccount.com",
+  "client_id": "105521650107896211901",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/liltech-dash%40appspot.gserviceaccount.com"
+}
