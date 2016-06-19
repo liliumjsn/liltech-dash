@@ -19,7 +19,7 @@ class News
   end
 
   def widget_id()
-    @widget_id = bbc-tech
+    bbc-tech
   end
 
   def truncate(string, length = 200)
