@@ -3,7 +3,7 @@ require 'date'
 
 # Update these to match your own apps credentials
 service_account_email = 'liltech-dash@appspot.gserviceaccount.com' # Email of service account
-key_file = 'liltech-dash-ad125f0f8d62.p12' # File containing your private key
+key_file = '/liltech-dash-ad125f0f8d62.p12' # File containing your private key
 key_secret = 'notasecret' # Password to unlock private key
 profileID = '79538768' # Analytics profile ID.
 
