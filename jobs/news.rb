@@ -13,9 +13,9 @@ news_feeds = {
 Decoder = HTMLEntities.new
 
 class News
-  def initialize(seattle-times, opm)
-    @widget_id = widget_id
-    @feed = feed
+  def initialize(widget_id, feed)
+    @widget_id = seattle-times
+    @feed = opm
   end
 
   def widget_id()
