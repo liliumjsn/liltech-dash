@@ -3,7 +3,7 @@ require "json"
 
 # WOEID for location:
 # http://woeid.rosselliot.co.nz
-woeid  = 2151330   # beijing 
+woeid  = 946738   # athens
 # woeid  = 28347135   # shah alam 
 # woeid  = 733075   # rotterdam
 # woeid  = 28289421   # antarctica
