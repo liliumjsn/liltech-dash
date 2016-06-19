@@ -2,7 +2,7 @@ var http = require('http');
 
 // WOEID for location:
 // http://woeid.rosselliot.co.nz
-var woeid = 710893;
+var woeid = 946738;
 
 // Units for temperature:
 // f: Fahrenheit
