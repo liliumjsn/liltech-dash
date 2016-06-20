@@ -5,7 +5,7 @@ require 'date'
 service_account_email = 'liltech-dash@appspot.gserviceaccount.com' # Email of service account
 key_file = 'liltech-dash-ad125f0f8d62.p12' # File containing your private key
 key_secret = 'notasecret' # Password to unlock private key
-profileID = '79538768' # Analytics profile ID.
+profileID = '124176109' # Analytics profile ID.
 
 # Get the Google API client
 client = Google::APIClient.new(:application_name => 'liltech-dash', 
