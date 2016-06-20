@@ -1,3 +1,4 @@
+require 'iso4217'
 
 ISO4217::Currency.base_currency = 'EUR'
 
