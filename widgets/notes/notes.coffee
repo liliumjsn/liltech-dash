@@ -1,8 +1,4 @@
 class Dashing.Notes extends Dashing.Widget
-  @accessor 'note1'
-  @accessor 'note2'
-  @accessor 'note3'
-  @accessor 'note4'
 
   onData: (data) ->
     if data.status
