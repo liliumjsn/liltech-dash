@@ -1,1 +1,1 @@
-class Dashing.Text extends Dashing.Widget
+class Dashing.Notes extends Dashing.Widget
