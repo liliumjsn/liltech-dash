@@ -20,18 +20,11 @@
    .notes {
      color: $note-color;
      padding:10px;
+     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
    }
  
    .updated-at {
      color: rgba(0, 0, 0, 0.3);
-   }
-   
-   hr {
-     padding:0;
-     margin:0;
-     border: 0;
-     height: 1px;
-     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
    }
    
   
