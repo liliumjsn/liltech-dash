@@ -1,4 +1,4 @@
-<h1 class="title" data-bind="title"></h1>
+<!--<h1 class="title" data-bind="title"></h1>
 
 <div data-foreach-event="notes">
     <p class="notes" data-bind="event.note1"></p>
@@ -21,4 +21,12 @@
     <hr/>
 </div>
 
-<p class="updated-at" data-bind="updatedAtMessage"></p>
+<p class="updated-at" data-bind="updatedAtMessage"></p>-->
+<div data-foreach-event="notes">
+  <div class="event-container">
+    <div class="note1" data-bind="event.note1"></div>
+    <h1>
+      <span data-bind='event.note2' class="title"></span>
+    </h1>
+  </div>
+</div>
