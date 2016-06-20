@@ -11,7 +11,7 @@ SCHEDULER.every '5m', :first_in => 0 do |job|
   http = Net::HTTP.new("graph.facebook.com")
   http.use_ssl = true
   http.verify_mode = OpenSSL::SSL::VERIFY_NONE # read into this
-  response = http.get(Net::HTTP::Get.new("/#{facebook_id}?access_token=#{access_token}&fields=fan_count"))
+  response = http.request(Net::HTTP::Get.new("/#{facebook_id}?access_token=#{access_token}&fields=fan_count"))
   data = JSON.parse(response.body)
   send_event('facebook_likes', current: data['fan_count'])
 end
