@@ -1,5 +1,5 @@
 class Dashing.Notes extends Dashing.Widget
-  @accessor 'note'
+  @accessor 'current'
 
   onData: (data) ->
     if data.status
