@@ -7,5 +7,5 @@ SCHEDULER.every '10s', :first_in => 0 do
     note4: test4
     }
   
-  send_event('notes',  { "note1"=> notes})
+  send_event('notes',  { "notes"=> notes})
 end
