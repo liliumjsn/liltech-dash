@@ -1,8 +1,11 @@
+require 'net/http'
+require 'json'
+
 SCHEDULER.every '5s', :first_in => 0 do 
     
-    #uri = URI('https://www.dropbox.com/s/3wbu1d34ey346st/liltech-dash-notes.txt')
-    #response = Net::HTTP.get_response(uri)
-    #notes = JSON.parse(response.body)
+    uri = URI('https://www.dropbox.com/s/3wbu1d34ey346st/liltech-dash-notes.txt')
+    response = Net::HTTP.get_response(uri)
+    notes = JSON.parse(response.body)
 
     send_event "notes", {   note1: "test1", 
                             note2: "test2", 
