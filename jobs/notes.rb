@@ -9,12 +9,12 @@ SCHEDULER.every '10m', :first_in => 0 do |job|
     data = JSON.parse(response.body)
 
     send_event "notes", {   note1: data['note1'], 
-                            note2: "test2", 
-                            note3: "test3", 
-                            note4: "test4", 
-                            note5: "test5", 
-                            note6: "test6", 
-                            note7: "test7" 
+                            note2: data['note2'], 
+                            note3: data['note3'], 
+                            note4: data['note4'], 
+                            note5: data['note5'], 
+                            note6: data['note6'], 
+                            note7: data['note7'] 
                         }
 
 end
