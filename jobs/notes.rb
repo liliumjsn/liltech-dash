@@ -1,7 +1,7 @@
 require 'net/http'
 require 'json'
 
-SCHEDULER.every '5s', :first_in => 0 do 
+SCHEDULER.every '10m', :first_in => 0 do 
     
     uri = URI('https://www.dropbox.com/s/3wbu1d34ey346st/liltech-dash-notes.txt')
     response = Net::HTTP.get_response(uri)
