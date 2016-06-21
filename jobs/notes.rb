@@ -1,7 +1,6 @@
 require 'net/http'
 require 'json'
 
-
 SCHEDULER.every '10m', :first_in => 0 do |job|
     
     uri = URI('https://dl.dropboxusercontent.com/s/3wbu1d34ey346st/liltech-dash-notes.txt')
