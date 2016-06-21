@@ -6,8 +6,7 @@ SCHEDULER.every '5s', :first_in => 0 do |job|
                             note4: "test4", 
                             note5: "test5", 
                             note6: "test6", 
-                            note7: "test7",
-                            note8: "test8", 
-                            note9: "test9" }
+                            note7: "test7" 
+                        }
 
 end
