@@ -1,47 +1,25 @@
- // ----------------------------------------------------------------------------
- // Sass declarations
- // ----------------------------------------------------------------------------
- $background-color:  #47bbb3;
- $note-color:       #fff;
- 
- $title-color:       rgba(255, 255, 255, 0.7);
- 
- /// ----------------------------------------------------------------------------
-// Sass declarations
 // ----------------------------------------------------------------------------
-$background-color:  #4183C5;
-
-$title-color:       rgba(255, 255, 255, 0.7);
-$moreinfo-color:    rgba(255, 255, 255, 0.7);
-
-$moreinfo-color:    rgba(255, 255, 255, 0.7);
-// ----------------------------------------------------------------------------
-// Widget-comment styles
-// ----------------------------------------------------------------------------
-.widget-notes {
-
-  background-color: $background-color;
-
-  .event-container {
-    //display: none;
-    overflow: hidden;
+  // Widget-notes styles
+  // ----------------------------------------------------------------------------
+  .widget-notes {
+  
+    background-color: $background-color;
+  
+    .title {
+      color: $title-color;
+    }
+  
+    .notes {
+      color: $note-color;
+    }
+    
+    .updated-at {
+      color: rgba(0, 0, 0, 0.3);
+    }
+   
+    hr {
+      border:0px;
+      height:1px;
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    }
   }
-
-  .title {
-    color: white;
-    font-size: 35px;
-    width: 100%;
-    overflow: hidden;
-    text-overflow: elipsis;
-    white-space: nowrap;
-    font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
-  }
-
-  .start {
-    color: #ccccff;
-    font-size: 25px;
-    text-align: left;
-    padding-left: 30px;
-  }
-
-}
